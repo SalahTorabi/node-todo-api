@@ -19,7 +19,7 @@ MongoClient.connect("mongodb://localhost:27017/TodoApp", (error, client) => {
       console.log(JSON.stringify(res.ops, undefined, 2));
     }
   );
-
+  //this is something
   db.collection("Users").insertOne(
     {
       name: "Salah",
